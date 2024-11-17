@@ -1,4 +1,4 @@
-import Animelist from "@/app/components/Animelist";
+import Animelist from "@/components/Animelist";
 import Link from "next/link";
 
 const Home = async () => {
@@ -7,9 +7,9 @@ const Home = async () => {
 
   return (
     <>
-      <div className="p-4 flex justify-between">
+      <div className="p-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold"> Paling Populer</h1>
-        <Link href="/pupuler" className="text-xl underline hover:text-indigo-500 transition-all">
+        <Link href="/pupuler" className="md:text-xl text-sm underline hover:text-indigo-500 transition-all">
           {" "}
           Lihat Semua
         </Link>

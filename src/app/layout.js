@@ -1,4 +1,4 @@
-import Navbar from "./components/Utilities/Navbar";
+import Navbar from "@/components/Navbar";
 import localFont from "next/font/local";
 import "./globals.css";
 
