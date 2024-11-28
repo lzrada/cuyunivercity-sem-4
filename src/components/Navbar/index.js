@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import InputSearch from "./InputSearch";
 const Navbar = () => {
   return (
     <header className="bg-indigo-500">
@@ -8,7 +8,7 @@ const Navbar = () => {
           {" "}
           CUYANIMELIST
         </Link>
-        <input placeholder="search" className="rounded p-1"></input>
+        <InputSearch />
       </div>
     </header>
   );
