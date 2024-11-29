@@ -20,7 +20,7 @@ const InputSearch = () => {
   };
   return (
     <div className="relative">
-      <input placeholder="search" className="p-2 rounded w-full" ref={searchRef} onKeyDown={handleKeyPress} />
+      <input placeholder="search" className="p-2 rounded w-full " ref={searchRef} onKeyDown={handleKeyPress} />
       <button className="absolute top-2 end-2" onClick={handleSearch}>
         <MagnifyingGlass size={24} />
       </button>
