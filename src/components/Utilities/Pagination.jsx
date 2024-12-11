@@ -33,5 +33,5 @@ const Pagination = ({ page, lastPage, setPage }) => {
     </div>
   );
 };
-
+5;
 export default Pagination;
