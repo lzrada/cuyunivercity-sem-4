@@ -2,7 +2,8 @@ import { getAnimeResponse } from "@/libs/api-libs";
 import VideoPlayer from "@/components/Utilities/VideoPlayer";
 import Image from "next/image";
 
-const Page = async ({ params: { id } }) => {
+const Page = async ({ params }) => {
+  const { id } = await params;
   const anime = await getAnimeResponse(`anime/${id}`);
 
   return (
